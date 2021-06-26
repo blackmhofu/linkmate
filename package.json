@@ -1,0 +1,19 @@
+{
+  "name": "linkmate",
+  "version": "1.0.0",
+  "description": "This is the backend of the link mate an application that allows developers to write their stories as they develops apps",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "BlackBox",
+    "coders"
+  ],
+  "author": "BlackBox",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
