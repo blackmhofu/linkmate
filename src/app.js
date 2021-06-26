@@ -1,13 +1,27 @@
 //configure all the server in this file then export the file 
-import dotenv from 'dotenv'
-dotenv.config()
-
-import log from './helpers/logger.js'
+import cors from 'cors'
 
 import express from "express"
+import logger from './helpers/logger.js'
 const app = express()
 
-log.info("david")
+
+
+app.use(cors())
+
+app.get('/',(req,res) =>{
+    res.status(200).json({hello  :"We dont sleep in Zion"})
+
+    logger.info("bang someone is homme..")
+    logger.info(process.env.PORT)
+
+})
+
+
+
+
+export default app
+
 
 
 
