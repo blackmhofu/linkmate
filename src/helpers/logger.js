@@ -6,7 +6,7 @@
    base:{
        pid:false
    },
-   timestamp:false
+   timestamp:() =>`time:"${dayjs().format()}"`
 
  })
  
