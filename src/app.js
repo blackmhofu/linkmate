@@ -2,11 +2,22 @@
 import dotenv from 'dotenv'
 dotenv.config()
 
+import log from './helpers/logger.js'
+
 import express from "express"
 const app = express()
 
+log.info("david")
 
-console.log(process.env.PORT)
+
+
+
+
+
+
+
+
+
 
 
 
